@@ -37,7 +37,7 @@ function Slider() {
   };
 
   return (
-    <div className="bg-white text-black relative">
+    <div className="bg-gray-300 text-black relative">
       <div className="container mx-auto flex flex-wrap justify-center items-center h-screen">
         <div className="w-full md:w-4/12 p-4">
           <h2 className="text-3xl font-bold">{textData[currentSlide].title}</h2>
@@ -74,7 +74,7 @@ function Slider() {
       </div>
 
       {/* Additional Section */}
-      <div className="bg-white py-8">
+      <div className="bg-white py-8 ">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:space-x-4">
           <div className="flex flex-col items-center">
             <div className="p-4 bg-yellow-500 rounded-full">
