@@ -37,11 +37,10 @@ function Slider() {
   };
 
   return (
-    <div className="bg-white-700 text-black relative">
+    <div className="bg-white text-black relative">
       <div className="container mx-auto flex flex-wrap justify-center items-center h-screen">
         <div className="w-full md:w-4/12 p-4">
           <h2 className="text-3xl font-bold">{textData[currentSlide].title}</h2>
-          <p>{textData[currentSlide].description}</p>
           <button className="bg-orange-500 text-white text-xl px-4 py-2 mt-4 rounded-lg">
             Buy Now
           </button>
@@ -70,6 +69,40 @@ function Slider() {
             >
               {">"}
             </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Additional Section */}
+      <div className="bg-white py-8">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:space-x-4">
+          <div className="flex flex-col items-center">
+            <div className="p-4 bg-yellow-500 rounded-full">
+              <span className="text-3xl text-white">🔍</span>
+            </div>
+            <h2 className="mt-2 text-lg font-semibold">Search your sunglass</h2>
+            <p className="text-gray-500">Shop Stylish Eyewear Now</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="p-4 bg-yellow-500 rounded-full">
+              <span className="text-3xl text-white">🕶️</span>
+            </div>
+            <h2 className="mt-2 text-lg font-semibold">Select Sunglass</h2>
+            <p className="text-gray-500">Shade Your Style</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="p-4 bg-yellow-500 rounded-full">
+              <span className="text-3xl text-white">💳</span>
+            </div>
+            <h2 className="mt-2 text-lg font-semibold">Make Payment</h2>
+            <p className="text-gray-500">Securely Checkout Now</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="p-4 bg-yellow-500 rounded-full">
+              <span className="text-3xl text-white">🚚</span>
+            </div>
+            <h2 className="mt-2 text-lg font-semibold">Received Product</h2>
+            <p className="text-gray-500">See the World Clearly</p>
           </div>
         </div>
       </div>
