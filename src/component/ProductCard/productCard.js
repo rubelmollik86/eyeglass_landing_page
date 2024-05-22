@@ -2,7 +2,25 @@ import React from "react";
 
 export const productCard = ({ products, handleAddToCart }) => {
   return (
-    <div className="container mx-auto p-4 mt-8">
+    <div className="container mx-auto p-4 mt-10">
+      <header className="mb-8">
+        <h1 className="text-3xl font-bold">Our Products</h1>
+        <p className="text-gray-600">
+          Experience crystal clear vision and elevated style with our premium
+          collection of eyeglasses.
+        </p>
+        <div className="mt-4 flex space-x-2">
+          <button className="px-4 py-2 bg-gray-200 text-gray-800 rounded">
+            Latest
+          </button>
+          <button className="px-4 py-2 bg-gray-800 text-white rounded">
+            Special
+          </button>
+          <button className="px-4 py-2 bg-gray-200 text-gray-800 rounded">
+            Best sell
+          </button>
+        </div>
+      </header>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {products?.map((product) => (
           <div className="bg-white shadow-md rounded-md p-4">
@@ -55,3 +73,5 @@ export const productCard = ({ products, handleAddToCart }) => {
 };
 
 export default productCard;
+
+
