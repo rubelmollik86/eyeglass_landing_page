@@ -27,7 +27,7 @@ function Slider() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((currentSlide + 1) % images.length);
-    }, 3000); // Change slide every 3 seconds
+    }, 4000); 
     return () => clearInterval(timer);
   }, [currentSlide]);
 

@@ -9,7 +9,6 @@ function TwoColumnSection() {
       <Navber />
       <section className="p-4 md:p-8 ">
         <div className="container mx-auto flex flex-wrap items-center">
-          {/* First Column: Text and Button */}
           <div className="w-full md:w-1/2 mb-4 md:mb-0">
             <div className="p-4">
               <h2 className="text-3xl md:text-4xl font-bold">
@@ -26,7 +25,6 @@ function TwoColumnSection() {
             </div>
           </div>
 
-          {/* Second Column: Animated Image with Zoom Effect */}
           <div className="w-full md:w-1/2 relative">
             <img
               src="/dicount-images/person-1.jpeg"
@@ -37,10 +35,8 @@ function TwoColumnSection() {
         </div>
       </section>
 
-      {/* Second section */}
       <section className="p-4 md:p-8 ">
         <div className="container mx-auto flex flex-wrap items-center">
-          {/* Second Column: Animated Image with Zoom Effect */}
           <div className="w-full md:w-1/3 relative">
             <img
               src="/dicount-images/person-2.jpeg"
@@ -49,7 +45,6 @@ function TwoColumnSection() {
             />
           </div>
 
-          {/* First Column: Text and Button */}
           <div className="w-full md:w-2/3 mb-4 md:mb-0">
             <div className="p-4 ml-4">
               <h2 className="text-2xl md:text-3xl font-bold">
@@ -78,10 +73,8 @@ function TwoColumnSection() {
         </div>
       </section>
 
-      {/* third section */}
       <section className="p-4 md:p-8 ">
         <div className="container mx-auto flex flex-wrap items-center">
-          {/* First Column: Text and Button */}
           <div className="w-full md:w-2/3 mb-4 md:mb-0">
             <div className="mr-5">
               <h2 className="text-2xl md:text-3xl font-bold">Our Commitment</h2>
@@ -97,7 +90,6 @@ function TwoColumnSection() {
             </div>
           </div>
 
-          {/* Second Column: Animated Image with Zoom Effect */}
           <div className="w-full md:w-1/3 relative ">
             <img
               src="/dicount-images/person-3.jpeg"

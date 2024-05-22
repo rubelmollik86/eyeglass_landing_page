@@ -26,7 +26,7 @@ export const productCard = ({ products, handleAddToCart }) => {
           <div className="bg-white shadow-md rounded-md p-4">
             <div className="relative">
               <img
-                className="w-full h-40 object-cover rounded-md"
+                className="w-full h-50 object-cover rounded-md"
                 src={product.img}
                 alt={product.name}
               />

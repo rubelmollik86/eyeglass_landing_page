@@ -194,12 +194,5 @@ const Footer = () => {
   );
 };
 
-const App = () => {
-  return (
-    <div>
-      <Footer />
-    </div>
-  );
-};
 
-export default App;
+export default Footer;
