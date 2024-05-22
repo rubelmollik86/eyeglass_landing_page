@@ -39,7 +39,7 @@ const Navbar = ({ quentity }) => {
           <div className="flex space-x-4">
             <button className="text-gray-700 hover:text-black">
               <i className="fas fa-shopping-cart relative inline-flex items-center p-3 text-sm font-medium text-center focus:ring-4 focus:outline-none focus:ring-blue-300">
-                <div className="absolute inline-flex items-center justify-center w-4 h-4 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2">
+                <div className="absolute inline-flex items-center justify-center w-5 h-5 text-xs font-bold text-white bg-yellow-400 border-2 border-white rounded-full -top-2 -end-2">
                   {quentity}
                 </div>
               </i>

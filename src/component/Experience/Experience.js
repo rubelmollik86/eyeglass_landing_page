@@ -1,8 +1,8 @@
 import React from "react";
 
-const App = () => {
+const Experience = () => {
   return (
-    <div className="container mx-auto flex flex-col md:flex-row items-center justify-center  bg-gray-50 p-6">
+    <div className="container mx-auto flex flex-col md:flex-row items-center justify-center  bg-gray-50 mt-8 p-4">
       <div className="flex flex-col justify-center bg-yellow-200 p-6 md:w-1/2 rounded-lg fade-in">
         <h1 className="text-3xl font-bold mb-4 slide-in">
           Experience clear vision with OptiChroma Vision Frames
@@ -31,4 +31,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Experience;
